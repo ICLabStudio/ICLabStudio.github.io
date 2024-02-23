@@ -1,8 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class',
+  darkMode: 'selector',
   content: ["./**/*.{html,js}"],
   theme: {
+    fontFamily: {
+      display: ["Josefin Sans"]
+    },
     extend: {},
   },
   plugins: [
